@@ -147,7 +147,7 @@ window.addEventListener("load", function () {
           "In a small bowl, combine the soy sauce, water, cornstarch, sesame oil, salt, sugar, garlic, ginger, green onions, and sesame seeds. Mix well.\n" +
           "Place a heaping tablespoon of the pork mixture in the center of a dumpling wrapper. Fold the wrapper in half and pinch the edges to seal. Repeat with the remaining pork mixture and dumpling wrappers.\n" +
           "Bring a large pot of water to a boil. Add the dumplings and cook for 5 minutes. Remove from the pot and serve hot.",
-        recipeImage: "FOODimages/siomai.jpg"
+        recipeimage: "FOODimages/siomai.jpg"
       },
       {
         id: 3,
