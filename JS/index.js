@@ -125,7 +125,7 @@ window.addEventListener("load", function () {
           "Place the chicken pieces in a large pot and pour the marinade over the chicken. Bring to a boil over high heat, then reduce the heat to low and simmer for 30 minutes.\n" +
           "Remove the chicken from the pot and set aside. Strain the marinade into a saucepan and bring to a boil. Reduce the heat to low and simmer for 10 minutes, or until the sauce has thickened.\n" +
           "Return the chicken to the pot and simmer for 10 minutes more. Serve hot.",
-        recipeimage: "/FOODimages/chicken-adobo.jpg"
+        recipeimage: "FOODimages/chicken-adobo.jpg"
       },
       {
         id: 2,
@@ -147,7 +147,7 @@ window.addEventListener("load", function () {
           "In a small bowl, combine the soy sauce, water, cornstarch, sesame oil, salt, sugar, garlic, ginger, green onions, and sesame seeds. Mix well.\n" +
           "Place a heaping tablespoon of the pork mixture in the center of a dumpling wrapper. Fold the wrapper in half and pinch the edges to seal. Repeat with the remaining pork mixture and dumpling wrappers.\n" +
           "Bring a large pot of water to a boil. Add the dumplings and cook for 5 minutes. Remove from the pot and serve hot.",
-        recipeimage: "/FOODimages/siomai.jpg"
+        recipeimage: "FOODimages/siomai.jpg"
       },
       {
         id: 3,
@@ -160,7 +160,7 @@ window.addEventListener("load", function () {
           "1/2 gallon cherries",
         recipeinstruction: "In a blender, combine the vanilla ice cream, milk, and Oreo cookies. Blend until smooth.\n" +
           "Pour the milkshake into a glass and top with whipped cream and a cherry.",
-        recipeimage: "/FOODimages/Oreo.jpg"
+        recipeimage: "FOODimages/Oreo.jpg"
 
       },
       {
@@ -189,7 +189,7 @@ window.addEventListener("load", function () {
           "Add the tofu to the skillet and cook until golden brown. Remove from the skillet and set aside.\n" +
           "Add the rice noodles to the skillet and cook until golden brown. Add the fish sauce mixture and cook until the noodles are coated. Add the scrambled eggs, tofu, bean sprouts, and green onions. Cook until heated through.\n" +
           "Serve with lime wedges and crushed peanuts.",
-        recipeimage: "/FOODimages/pad-thai.jpg"
+        recipeimage: "FOODimages/pad-thai.jpg"
 
       },
 
@@ -208,7 +208,7 @@ window.addEventListener("load", function () {
         recipeinstruction: "Preheat the oven to 400 degrees F (200 degrees C).\n" +
           "Place the chicken wings in a large bowl. In a small bowl, combine the hot sauce and butter. Pour the hot sauce mixture over the chicken wings and toss to coat. Arrange the chicken wings in a single layer on a baking sheet.\n" +
           "Bake in the preheated oven until the chicken wings are no longer pink in the center, 30 to 40 minutes. Serve with blue cheese dressing, celery sticks, and carrots.",
-        recipeimage: "/FOODimages/buffalo-wings.jpg"
+        recipeimage: "FOODimages/buffalo-wings.jpg"
 
       },
       {
@@ -227,7 +227,7 @@ window.addEventListener("load", function () {
         recipeinstruction: "In a large skillet, cook the ground beef over medium heat until browned. Drain the grease.\n" +
           "Warm the tortillas according to the package instructions.\n" +
           "To assemble the tacos, place a tortilla on a plate. Top with ground beef, salsa, guacamole, onions, tomatoes, and lettuce. Season with salt and pepper, to taste. Serve immediately.",
-        recipeimage: "/FOODimages/taco.jpg"
+        recipeimage: "FOODimages/taco.jpg"
       },
     ];
     dataSave("recipes", recipeArray);
