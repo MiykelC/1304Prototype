@@ -125,7 +125,7 @@ window.addEventListener("load", function () {
           "Place the chicken pieces in a large pot and pour the marinade over the chicken. Bring to a boil over high heat, then reduce the heat to low and simmer for 30 minutes.\n" +
           "Remove the chicken from the pot and set aside. Strain the marinade into a saucepan and bring to a boil. Reduce the heat to low and simmer for 10 minutes, or until the sauce has thickened.\n" +
           "Return the chicken to the pot and simmer for 10 minutes more. Serve hot.",
-        recipeimage: "FOODimages/chicken-adobo.JPG"
+        recipeimage: "FOODimages/chicken-adobo.jpg"
       },
       {
         id: 2,
