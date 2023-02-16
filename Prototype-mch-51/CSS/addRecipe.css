@@ -1,0 +1,239 @@
+@import url('https://fonts.cdnfonts.com/css/instagram-sans-condensed');
+
+.addMain {
+  display: flex;
+  justify-content: center;
+}
+
+.inputAdd {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.inputAdd h1 {
+  font-family: 'Instagram Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 105px;
+  letter-spacing: 0.15em;
+  color: #000000;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.inputAdd button {
+  align-self: center;
+}
+
+.addMain input::placeholder {
+  font-size: 20px;
+  font-family: 'Instagram Sans Condensed', sans-serif;
+  color: #8E8E93;
+  padding-left: 20px;
+
+}
+
+.addImage {
+  display: none;
+}
+
+
+.addImage+label {
+
+  align-self: center;
+  margin-bottom: 40px;
+
+}
+
+.addImage+label img {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.alert {
+  text-align: center;
+  font-size: large;
+  width: 506px;
+  height: 84px;
+}
+
+.alertcontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+
+}
+
+#logo {
+  position: absolute;
+  width: 550px;
+  height: 560px;
+  left: 20px;
+  top: -183px;
+}
+
+.navbar {
+  background-color: #F7E6C4;
+  overflow: hidden;
+  height: 146px;
+  display: flex;
+  width: 100%;
+}
+
+.navbar a {
+  font-family: 'Instagram Sans Condensed', sans-serif;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+
+  margin-top: -45px;
+
+}
+
+
+
+
+
+.button {
+  max-width: 40%;
+  width: 189px;
+  height: 45px;
+  left: 969px;
+  top: 235px;
+  border: none;
+  background: #f8902f;
+  border-radius: 36px;
+  font-size: 19.5px;
+  letter-spacing: 0.25em;
+  color: #E7F0F1;
+  margin-top: -42px;
+  font-family: 'Hind Kochi', sans-serif;
+  font-stretch: condensed;
+
+}
+
+.form-control {
+  width: 506px;
+  height: 60px;
+  left: 460px;
+  top: 375px;
+  background: #ffffff;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  align-self: center;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  height: 50px;
+  border-radius: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .navbar a:hover {
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 125, 73);
+    height: 50px;
+    border-radius: 50px;
+  }
+
+  .navbar a {
+    flex-direction: column;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Instagram Sans Condensed', sans-serif;
+
+
+
+  }
+
+  .navbar {
+    background-color: #F7E6C4;
+    overflow: hidden;
+    height: 220px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+  }
+
+
+  .flex-Container {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-left: -180px;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #logo2 {
+    display: flex;
+    position: absolute;
+    width: 400px;
+    height: 285px;
+
+    margin-left: -10px;
+    margin-top: -10px;
+
+  }
+
+  .button {
+
+    width: 70px;
+    height: 45px;
+    left: 969px;
+    top: 235px;
+    border: none;
+    background: #f8902f;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #E7F0F1;
+    font-family: 'Instagram Sans Condensed', sans-serif;
+
+  }
+
+  .inputAdd h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 80px;
+  }
+
+  .inputAdd textarea {
+    width: 350px;
+    height: 60px;
+    left: 460px;
+    top: 375px;
+    background: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    align-self: center;
+    font-size: 20px;
+  }
+  
+
+
+}

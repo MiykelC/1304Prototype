@@ -1,0 +1,166 @@
+@import url('https://fonts.cdnfonts.com/css/instagram-sans-condensed');
+
+
+
+.MainLogin {
+  display: flex;
+
+}
+
+.Login {
+  width: 50%;
+
+}
+
+.loginImg {
+  height: 100%;
+  padding-left: 40px;
+
+}
+
+.MainLogin2 {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.Login img {
+  width: 165px;
+  height: 142px;
+}
+
+.Login p {
+font-family: 'Instagram Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 39px;
+  letter-spacing: 0.18em;
+  margin-bottom: 90px;
+  margin-top: 20px;
+  padding-left: 40px;
+
+}
+
+.Login a {
+  color: #FF814A;
+}
+
+.alert {
+  text-align: center;
+  font-size: large;
+  width: 506px;
+  height: 84px;
+}
+
+
+.alertcontainer {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .MainLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+
+  }
+
+  .Login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+
+  .loginImg {
+    display: none;
+  }
+
+  .MainLogin2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Loginimg {
+    width: 165px;
+    height: 142px;
+
+  }
+
+  .Login p {
+    font-family: 'Instagram Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 39px;
+    letter-spacing: 0.18em;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 0px;
+
+
+  }
+
+  .MainLogin2 a {
+    color: #FF814A;
+  }
+
+  .MainLogin2 h1 {
+    font-size: 70px;
+
+    margin-top: -30px;
+    margin-bottom: -5px;
+    padding-bottom: 30px;
+
+  }
+
+  .alert {
+    text-align: center;
+    font-size: large;
+    width: 450px;
+    height: 80px;
+    
+    margin-top: -80px;
+  }
+
+  .alertcontainer {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .inputAdd input {
+    width: 90%;
+    height: 60px;
+    top: 375px;
+    background: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    align-self: center;
+    font-size: 20px;
+
+  }
+
+  .MainLogin Img {
+    width: 70%;
+    height: 30%;
+
+
+
+  }
+
+  .inputAdd button {
+
+    margin-top: -30px;
+  }
+
+}

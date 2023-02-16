@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="/CSS/header.css">
+  <link rel="stylesheet" href="/CSS/items.css">
+  <link rel="stylesheet" href="/CSS/button.css">
+  
+  <script src="/JS/index.js"></script>
+  <meta charset="UTF-8">
+  <script>
+    function logout() {
+      localStorage.removeItem("logAccount");
+      window.location.href = "login.html";
+    }
+  </script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <div class="navbar">
+    <div class="imageContainer">
+      <img src="/FOODimages/MFYlogo2.png" id="logo2" alt="logo">
+      <img src="/FOODimages/MFYLogo.png" id="logo" alt="logo">
+    </div>
+    <div class="flex-Container">
+      <a href="index.html">HOME</a>
+      <a href="addRecipe.html">ADD RECIPE</a>
+      <a href="members.html">MEMBERS</a>
+      <a href="myRecipe.html">MY RECIPES</a>
+
+      <button class="button" onclick="logout()">LOGOUT</button>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="con">
+
+    <div class="searchLabel" id="searchlabel">
+      <h1>SEARCH AND START COOKING</h1>
+
+      <div class="search">
+        <input type="text" placeholder="Search" id="search" onkeyup="searchbar()">
+      </div>
+    </div>
+
+    <div class="items" id="items">
+      <!-- <div class="card">
+        <img src="/FOODimages/taco.jpg" alt="Avatar">
+        <div class="container">
+          <h4><b>Recipe Name</b></h4>
+          <p>Recipe Description</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/FOODimages/taco.jpg" alt="Avatar">
+        <div class="container">
+          <h4><b>Recipe Name</b></h4>
+          <p>Recipe Description</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/FOODimages/taco.jpg" alt="Avatar">
+        <div class="container">
+          <h4><b>Recipe Name</b></h4>
+          <p>Recipe Description</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/FOODimages/taco.jpg" alt="Avatar">
+        <div class="container">
+          <h4><b>Recipe Name</b></h4>
+          <p>Recipe Description</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/FOODimages/taco.jpg" alt="Avatar">
+        <div class="container">
+          <h4><b>Recipe Name</b></h4>
+          <p>Recipe Description</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/FOODimages/taco.jpg" alt="Avatar">
+        <div class="container">
+          <h4><b>Recipe Name</b></h4>
+          <p>Recipe Description</p>
+        </div> -->
+    </div>
+
+  </div>
+
+  </div>
+
+
+
+</body>
+
+</html>

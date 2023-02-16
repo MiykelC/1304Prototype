@@ -1,0 +1,136 @@
+@import url('https://fonts.cdnfonts.com/css/instagram-sans-condensed');
+
+.MainCon {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 100px;
+
+}
+
+.SubCon1 {
+  width: 50%;
+}
+
+.SubCon2 {
+  width: 50%;
+
+}
+
+.UpperCon {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.UpperCon1 {
+  width: 50%;
+}
+
+.UpperoCon2 {
+  width: 50%;
+}
+
+.contents {
+  font-family: 'Instagram Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 52px;
+}
+
+
+
+.SubCon1 img {
+  width: 553px;
+  height: auto;
+}
+
+.Lowercon div {
+  padding-bottom: 60px;
+  margin-bottom: -25px;
+}
+
+.instructions p {
+  font-size: 22px;
+}
+
+.ingredients p {
+  font-size: 22px;
+}
+
+.description p {
+  font-size: 22px;
+}
+
+#recipeName {
+  font-family: 'Instagram Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.alertcontainer {
+  font-size: 30px;
+  color: rgb(88, 146, 0);
+  text-align: center;
+  background-color: rgb(204, 255, 126);
+  margin-top: 40px;
+  font-family: 'Instagram Sans Condensed', sans-serif;
+}
+
+#notifyalert {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .SubCon1 img {
+    width: 320px;
+    height: 340px;
+    margin-left: -65px;
+    margin-top: -50px;
+    
+  }
+
+  .SubCon2 {
+    width: 100%;
+
+  }
+
+  .UpperCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 360px;
+    margin-left: -110px;
+  }
+
+  .Lowercon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: -150px;
+    width: 300px;
+  }
+
+  .Lowercon p {
+    text-align: left;
+
+  }
+
+  .Uppercon1 h1 {
+    text-align: center;
+    margin-right: 45px;
+    margin-top: -50px;
+  }
+
+}

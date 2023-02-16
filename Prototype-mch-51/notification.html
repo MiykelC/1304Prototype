@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/CSS/header.css">
+  <link rel="stylesheet" href="/CSS/items.css">
+  <link rel="stylesheet" href="/CSS/recipe.css">
+  <link rel="stylesheet" href="/CSS/button.css">
+  <script src="/JS/result.js"></script>
+  <script src="/JS/notification.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="imageContainer">
+      <img src="/FOODimages/MFYlogo2.png" id="logo2" alt="logo">
+      <img src="/FOODimages/MFYLogo.png" id="logo" alt="logo">
+    </div>
+    <div class="flex-Container">
+      <a href="index.html">HOME</a>
+      <a href="addRecipe.html">ADD RECIPE</a>
+      <a href="members.html">MEMBERS</a>
+      <a href="myRecipe.html">MY RECIPES</a>
+      <button class="button" onclick="logout()">LOGOUT</button>
+    </div>
+  </div>
+<div id="notifyalert"></div>
+
+
+  <div class="MainCon">
+    <div class="SubCon1">
+      <img src="" alt="foodimage" id="displayimg">
+    </div>
+    <div class="SubCon2">
+      <div class="UpperCon">
+        <div class="Uppercon1">
+          <h1 id="recipeName"></h1>
+
+
+        </div>
+
+        <div class="Uppercon2">
+          <button class="button buttonanswer"  >Yes</button>
+          <button class="button2 buttonanswer" >No</button>
+
+
+        </div>
+      </div>
+      <div class="Lowercon">
+        <div class="description" id="description">
+          <h3 class="contents">Description</h3>
+          <!-- <p>Traditional Mexican beef tacos are made with marinated sliced or shredded beef on soft corn tortillas.
+            Those are great!
+            But, that’s not what most Americans think of when we think of classic tacos.</p> -->
+        </div>
+
+        <div class="ingredients" id="ingredients">
+          <h3 class="contents">Ingredients</h3>
+          <!-- <p>1 pound ground beef</p>
+          <p>1/2 cup chopped onion</p>
+          <p>1/2 cup chopped green bell pepper</p>
+          <p>1/2 cup chopped red bell pepper</p>
+          <p>1/2 cup chopped yellow bell pepper</p>
+          <p>Tacos</p> -->
+        </div>
+
+        <div class="instructions" id="instructions">
+          <h3 class="contents">Instructions</h3>
+          <!-- <p>Break apart lean ground beef in a skillet over medium-high heat.</p>
+          <p>Add chili powder, cumin, salt, oregano, garlic powder, and pepper</p>
+          <p>Cook until the beef is browned.</p>
+          <p>Add tomato sauce and water to the meat.</p>
+          <p>Cook until some liquid has evaporated, but the meat is still saucy.</p>
+          <p>Spoon 2 tablespoons of the taco meat into hard taco shells or small soft tortillas.</p>
+          <p>Top the tacos with your favorite traditional taco toppings</p> -->
+
+
+        </div>
+      </div>
+
+    </div>
+</body>
+
+</html>

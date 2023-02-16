@@ -1,0 +1,153 @@
+@import url('https://fonts.cdnfonts.com/css/instagram-sans-condensed');
+
+
+.MainSignup {
+  display: flex;
+
+}
+
+.Signup {
+  width: 50%;
+
+}
+
+.SignupImg {
+  width: 20;
+  height: 100%;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  padding-left: 40px;
+}
+
+.MainLogin2 {
+  display: flex;
+  justify-content: center;
+}
+
+.Signup img {
+  width: 165px;
+  height: 142px;
+}
+
+.Signup p {
+  font-family: 'Instagram Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 39px;
+  letter-spacing: 0.18em;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.MainSignup2 a {
+  color: #FF814A;
+
+}
+
+.alert {
+  text-align: center;
+  font-size: large;
+  width: 506px;
+  height: 84px;
+}
+
+.alertcontainer {
+  display: flex;
+  justify-content: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .MainSignup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .Signup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .SignupImg {
+    display: none;
+  }
+
+  .MainLogin2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Signup img {
+    width: 165px;
+    height: 142px;
+  }
+
+  .Signup p {
+    font-family: 'Hind Kochi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 39px;
+    letter-spacing: 0.18em;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .MainSignup2 a {
+    color: #FF814A;
+  }
+
+  .MainSignup2 h1{
+    font-size: 90px;
+    margin-top: -20px;
+  }
+
+  .alert {
+    text-align: center;
+    font-size: large;
+    width: 400px;
+    height: 84px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: -40px;
+  }
+
+  .alertcontainer {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .inputAdd input {
+    width: 60%;
+    height: 60px;
+    top: 375px;
+    background: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    align-self: center;
+    font-size: 20px;
+
+
+  }
+  .inputAdd button{
+    margin-bottom: 50px;
+  }
+
+  .MainSignup Img {
+   width: 70%;    
+   height: 30%;
+  }
+  
+}

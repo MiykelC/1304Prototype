@@ -1,0 +1,113 @@
+@import url('https://fonts.cdnfonts.com/css/instagram-sans-condensed');
+
+.navbar {
+
+  background-color: #F7E6C4;
+  overflow: hidden;
+  height: 146px;
+  display: flex;
+  width: 100%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.navbar a {
+
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Instagram Sans Condensed', sans-serif;
+
+
+}
+
+.navbar a:hover {
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  height: 50px;
+  border-radius: 50px;
+}
+
+#logo {
+  position: absolute;
+  width: 550px;
+  height: 560px;
+  left: 20px;
+  top: -110px;
+}
+
+#logo2 {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+  .navbar a:hover {
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 125, 73);
+    height: 50px;
+    border-radius: 50px;
+  }
+
+  .navbar a {
+    flex-direction: column;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15.5px;
+    font-family: 'Instagram Sans Condensed', sans-serif;
+    margin: 5px;
+  
+   
+    
+  }
+
+  .navbar {
+    background-color: #F7E6C4;
+    overflow: hidden;
+    height: 220px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+
+  .flex-Container {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-top: 110px;
+    
+
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #logo2 {
+    display: flex;
+    position: absolute;
+    width: 400px;
+    height: 280px;
+    /* transform: rotate(-52deg); */
+    margin-left: -5px;
+    top: -150px;
+  }
+    .button{
+      margin-top: 10px;
+    }
+
+
+}

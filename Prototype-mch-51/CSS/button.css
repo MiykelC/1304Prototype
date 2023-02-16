@@ -1,0 +1,80 @@
+@import url('https://fonts.cdnfonts.com/css/instagram-sans-condensed');
+
+
+.button {
+  max-width: 40%;
+  width: 187px;
+  height: 45px;
+  left: 969px;
+  top: 235px;
+  border: none;
+  background: #f8902f;
+  border-radius: 36px;
+  font-size: large;
+  letter-spacing: 0.18em;
+  color: #E7F0F1;
+  font-family: 'Instagram Sans Condensed', sans-serif;
+
+}
+
+.button2 {
+  max-width: 40%;
+  width: 187px;
+  height: 45px;
+  left: 1164px;
+  top: 235px;
+  border: none;
+  background: #FF3F3F;
+  border-radius: 36px;
+  font-size: large;
+  letter-spacing: 0.18em;
+  color: #E7F0F1;
+}
+
+.inputAdd input {
+  width: 506px;
+  height: 60px;
+  left: 460px;
+  top: 375px;
+  background: #ffffff;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  align-self: center;
+  font-size: large;
+  padding-left: 40px;
+  font-family: 'Instagram Sans Condensed', sans-serif;
+}
+
+
+
+
+.button:hover {
+  background-color: #fa5555;
+  color: white;
+}
+
+.button2:hover {
+  background-color: #ffba51;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  .button {
+
+    width: 187px;
+    height: 45px;
+    left: 969px;
+    top: 235px;
+    border: none;
+    background: #f8902f;
+   
+
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #E7F0F1;
+    font-family: 'Instagram Sans Condensed', sans-serif;
+
+  }
+}
